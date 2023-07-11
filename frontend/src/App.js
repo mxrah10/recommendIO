@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand as={Link} to="/">AnimeWorld</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">RecommendIO</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link as={Link} to="/">Home</Nav.Link>
           <Nav.Link as={Link} to="/about">About</Nav.Link>
