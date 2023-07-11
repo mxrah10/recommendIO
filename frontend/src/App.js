@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
     <Router>
-      <Navbar bg="dark" variant="dark" style={{ paddingTop: '20px', paddingBottom: '20px' }}>
+      <Navbar bg="dark" variant="dark" className="justify-content-between" style={{ paddingTop: '20px', paddingBottom: '20px' }}>
         <Navbar.Brand as={Link} to="/" style={{ paddingLeft: '15px' }}>RecommendIO</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link as={Link} to="/">Home</Nav.Link>
@@ -17,9 +17,9 @@ function App() {
           <Nav.Link as={Link} to="/movies">Movies</Nav.Link>
           <Nav.Link as={Link} to="/games">Games</Nav.Link>
         </Nav>
-        <Nav className="ml-auto">
-          <Nav.Link as={Link} to="/user">
-            <img src="https://i.imgur.com/1uYrojn.png" alt="user" width="30" height="30" />
+        <Nav>
+          <Nav.Link as={Link} to="/user" style={{paddingRight: '140px'}}>
+            <img src="https://imageio.forbes.com/blogs-images/olliebarder/files/2016/06/goku_black_new-1200x675.jpg?height=399&width=711&fit=bounds" alt="user" style={{ width: "30px", height: "30px", objectFit: "cover" , borderRadius: "50%" }} />
           </Nav.Link>
         </Nav>
       </Navbar>
