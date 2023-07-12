@@ -1,6 +1,6 @@
 body {
   background-color: #000080;
-  color: white;
+  color: rgb(177, 20, 20);
 }
 
 .center-content {
@@ -9,4 +9,8 @@ body {
   align-items: center;
   height: 100vh;
   flex-direction: column;
+}
+
+.equal-width-buttons {
+  width: 200px; /* Adjust this value based on your need */
 }
