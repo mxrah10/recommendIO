@@ -4,6 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_socketio import SocketIO, send, emit
 from dotenv import load_dotenv
 import os
+from db_creation import Anime, db
 
 load_dotenv('pass.env')
 
