@@ -19,4 +19,5 @@ class Anime(db.Model):
     continuity = db.Column(db.String(255), nullable=False)
     image = db.Column(db.LargeBinary)
 
-db.create_all()
+with app.app_context():
+    db.create_all()
