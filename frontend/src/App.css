@@ -1,0 +1,35 @@
+body {
+  background-color: #191936;
+  color: rgb(255, 255, 255);
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.equal-width-buttons {
+  width: 200px; /* Adjust this value based on your need */
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.equal-width-buttons {
+  width: 200px; /* Adjust this value based on your need */
+}
