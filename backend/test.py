@@ -1,6 +1,8 @@
 from dotenv import load_dotenv
 import os
+import requests
 
-load_dotenv('pass.env')
+response = requests.get('https://api.jikan.moe/v4/anime?q=&sfw')
 
-print (os.getenv('DATABASE_URL'))
+for data in response.json()['data']:
+    print (data['title'])
