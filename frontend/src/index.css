@@ -3,14 +3,4 @@ body {
   color: rgb(177, 20, 20);
 }
 
-.center-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
-}
 
-.equal-width-buttons {
-  width: 200px; /* Adjust this value based on your need */
-}

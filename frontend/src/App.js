@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import Home from './Home';
 import About from './About';
+import Anime from './Anime';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/anime" element={<Anime />} />
       </Routes>
     </Router>
   );
